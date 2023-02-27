@@ -1,0 +1,184 @@
+{
+    "Images": [
+        {
+            "Name": "i0",
+            "Description": "Pancreatic Ductal Adenocarcinoma",
+            "Path": "https://lms-celldive-s3.s3.eu-central-1.amazonaws.com/Pancreatic-Ductal-Adenocarcinoma/images/Pancreatic-Ductal-Adenocarcinoma",
+            "Width": 84574,
+            "Height": 57088,
+            "MaxLevel": 7
+        }
+    ],
+    "Header": "Pancreatic ductal adenocarcinoma stained with 29 markers plus DAPI",
+    "Rotation": 0,
+    "Layout": {
+        "Grid": [
+            [
+                "i0"
+            ]
+        ]
+    },
+    "Stories": [
+        {
+            "Name": "",
+            "Description": "",
+            "Waypoints": [
+                {
+                    "Name": "",
+                    "Description": "",
+                    "Arrows": [],
+                    "Overlays": [],
+                    "Group": "Overview",
+                    "Masks": [],
+                    "ActiveMasks": [],
+                    "Zoom": 1,
+                    "Pan": [
+                        0.5,
+                        0.5
+                    ]
+                }
+            ]
+        }
+    ],
+    "Masks": [],
+    "Groups": [
+        {
+            "Name": "Overview",
+            "Path": "Overview_8__PANCK-PCK26--15__PANCK-AE1--1__GLUT1--13__VIMENTIN--6__NAK--29__DAPI",
+            "Colors": [
+                "ee82ee",
+                "00ffff",
+                "ffff84",
+                "c84600",
+                "0000ff",
+                "ffffff"
+            ],
+            "Channels": [
+                "PANCK PCK26",
+                "PANCK AE1",
+                "GLUT1",
+                "VIMENTIN",
+                "NAK",
+                "DAPI"
+            ]
+        },
+        {
+            "Name": "Apoptosis",
+            "Path": "Apoptosis_16__BAK--21__CASPASE9--17__BAX--19__BCL--20__BCL2--28__CIAP1--14__X1AP--12__SMAC--6__NAK",
+            "Colors": [
+                "ee82ee",
+                "00ffff",
+                "ffff84",
+                "c84600",
+                "ffffff",
+                "00ff00",
+                "ff00ff",
+                "0096a0",
+                "0000ff"
+            ],
+            "Channels": [
+                "BAK",
+                "CASPASE9",
+                "BAX",
+                "BCL",
+                "BCL2",
+                "CIAP1",
+                "X1AP",
+                "SMAC",
+                "NAK"
+            ]
+        },
+        {
+            "Name": "Aerobic Glycolysis Warburg Effect",
+            "Path": "Aerobic-Glycolysis-Warburg-Effect_1__GLUT1--18__BCAT--2__HK2--4__HTR2B--9__PKM2--5__LDHA--13__VIMENTIN--7__PCAD--11__SMA",
+            "Colors": [
+                "ffff84",
+                "ee82ee",
+                "00ffff",
+                "ff00ff",
+                "ffffff",
+                "00ff00",
+                "c84600",
+                "0096a0",
+                "0000ff"
+            ],
+            "Channels": [
+                "GLUT1",
+                "BCAT",
+                "HK2",
+                "HTR2B",
+                "PKM2",
+                "LDHA",
+                "VIMENTIN",
+                "PCAD",
+                "SMA"
+            ]
+        },
+        {
+            "Name": "Architecture",
+            "Path": "Architecture_11__SMA--13__VIMENTIN--8__PANCK-PCK26--6__NAK--26__CD31--15__PANCK-AE1",
+            "Colors": [
+                "ffff84",
+                "c84600",
+                "ee82ee",
+                "0000ff",
+                "ffffff",
+                "00ffff"
+            ],
+            "Channels": [
+                "SMA",
+                "VIMENTIN",
+                "PANCK PCK26",
+                "NAK",
+                "CD31",
+                "PANCK AE1"
+            ]
+        },
+        {
+            "Name": "Cancer Immunity and Progression",
+            "Path": "Cancer-Immunity-and-Progression_22__CD3--23__CD4--25__CD20--24__CD8--27__CD45--1__GLUT1--8__PANCK-PCK26--15__PANCK-AE1",
+            "Colors": [
+                "f80505",
+                "ffffff",
+                "c84600",
+                "00ff00",
+                "0000ff",
+                "ffff84",
+                "ee82ee",
+                "00ffff"
+            ],
+            "Channels": [
+                "CD3",
+                "CD4",
+                "CD20",
+                "CD8",
+                "CD45",
+                "GLUT1",
+                "PANCK PCK26",
+                "PANCK AE1"
+            ]
+        },
+        {
+            "Name": "Cancer Associated Fibroblasts and Collagen Deposition",
+            "Path": "Cancer-Associated-Fibroblasts-and-Collagen-Deposition_0__Collagen--13__VIMENTIN--4__HTR2B--11__SMA--26__CD31--28__CIAP1--7__PCAD",
+            "Colors": [
+                "f80505",
+                "c84600",
+                "ff00ff",
+                "ffff84",
+                "ffffff",
+                "00ff00",
+                "0096a0"
+            ],
+            "Channels": [
+                "Collagen",
+                "VIMENTIN",
+                "HTR2B",
+                "SMA",
+                "CD31",
+                "CIAP1",
+                "PCAD"
+            ]
+        }
+    ]
+}
