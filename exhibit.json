@@ -9,7 +9,7 @@
             "MaxLevel": 7
         }
     ],
-    "Header": "'Cancer is complicated. For the world's highest impact, hardest-to-treat illnesses like pancreatic cancer, developing novel therapies requires looking beyond single-pathway genetic or biochemical analyses and getting a view of the entire picture. Multiplexed imaging and spatial proteomics with Cell DIVE from Leica Microsystems is a way to achieve highly multiplexed images (with 60+ biomarkers) in a single piece of human tissue using a robust, tissue-preserving workflow. In this story, we will introduce you to the complex biology of pancreatic ductal adenocarcinoma and investigate molecular and spatial determinants of tumor cell agression at the level of metabolism, apoptosis, and immunity.",
+    "Header": "Cancer is complicated. For the world's highest impact, hardest-to-treat illnesses like pancreatic cancer, developing novel therapies requires looking beyond single-pathway genetic or biochemical analyses and getting a view of the entire picture. Multiplexed imaging and spatial proteomics with Cell DIVE from Leica Microsystems is a way to achieve highly multiplexed images (with 60+ biomarkers) in a single piece of human tissue using a robust, tissue-preserving workflow.\nIn this story, we will introduce you to the complex biology of pancreatic ductal adenocarcinoma (PDAC) and investigate molecular and spatial determinants of tumor cell agression at the level of metabolism, apoptosis, and immunity.",
     "Rotation": 0,
     "Layout": {
         "Grid": [
@@ -25,13 +25,13 @@
             "Waypoints": [
                 {
                     "Name": "Architecture of a PDAC tumor",
-                    "Description": "Pancreatic cancer is a hard to treat cancer with a mortality rate close to 40%. The pancreas' close proximity to many major organ systems makes this particular cancer particularly dangerous. Moreover, the highly heterogenous nature of the depicted tumor type, pancreatic ductal adenocarcinoma (PDAC) poses a special challenge to therapy dvelopment. Some of the more invasive and agressive regions of the tumor are especially refractory to novel treatments.The biomarkers depicted here show the overall architecture of the tumor. The differential staining of two, paired pan-cytokeratin clones allow the tumor regions to be differentiated from normal tissue. NaKATPase stains plasma membrane. Vimentin marks stromal tissue. CD31 is a marker for blood vessels.",
+                    "Description": "Pancreatic cancer is a hard to treat cancer with a mortality rate close to 40%. The pancreas' close proximity to many major organ systems makes this cancer particularly dangerous. Moreover, the highly heterogenous nature of the depicted tumor type, pancreatic ductal adenocarcinoma poses a special challenge to therapy development. Some of the more invasive and aggressive regions of the tumor are especially refractory to novel treatments.\nThe biomarkers depicted here show the overall architecture of the tumor. The differential staining of two, paired pan-cytokeratin clones allow the tumor regions to be differentiated from normal tissue. NaKATPase stains plasma membrane. Vimentin marks stromal tissue. CD31 is a marker for blood vessels.",
                     "Arrows": [],
                     "Overlays": [],
                     "Group": "Architecture",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 0.44249999999999995,
+                    "Zoom": 0.4425,
                     "Pan": [
                         0.5462304996298218,
                         0.551366585032834
@@ -39,20 +39,20 @@
                 },
                 {
                     "Name": "Tumor heterogeneity and altered metabolism",
-                    "Description": "In tumors and other highly proliferating populations, cells can occasionally shift their metabolic activity away from full electron transport chain-mediated respiration and towards a direct fermentation of glucose, in a shift known as the Warburg effect. GLUT1, a glucose transporter, marks cells in the PDAC tissue undergoing this effect, and experiencing a condition known as hypoxia. BCAT, HTR2B, and LDHA also mark conditions of altered metabolism. Hypoxic regions of the tumor are known to be sources of aggressive cancer cells. Can co-analysis of other biological pathways using mutliplexed imaging reveal clues as to why?",
+                    "Description": "In tumors and other highly proliferating populations, cells can occasionally shift their metabolic activity away from full electron transport chain-mediated respiration and towards a direct fermentation of glucose, in a shift known as the Warburg effect. GLUT1, a glucose transporter, marks cells in the PDAC tissue undergoing this effect, and experiencing a condition known as hypoxia - a reduction of oxygen levels in the tissue. BCAT, HTR2B, and LDHA also mark conditions of altered metabolism. Hypoxic regions of the tumor are known to be sources of aggressive cancer cells. Can co-analysis of other biological pathways using multiplexed imaging reveal clues as to why?",
                     "Arrows": [],
                     "Overlays": [],
                     "Group": "Aerobic Glycolysis Warburg Effect - EMT",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 1.5855575039999994,
+                    "Zoom": 1.0243055555555556,
                     "Pan": [
-                        0.43400750980215175,
-                        0.3759906522183147
+                        0.38908058258538347,
+                        0.3436854111076393
                     ]
                 },
                 {
-                    "Name": "Hypoxic conditions inversely correlate with apoptotic signalling",
+                    "Name": "Hypoxic conditions inversely correlate with apoptotic signaling",
                     "Description": "By utilizing a variety of biomarkers to detect components of the planned cell death, or apoptosis, pathway, we can easily observe a spatial differentiation in how these markers are expressed. Here, in normoxic tumor tissue defined by the absence of GLUT1 expression, we detect the presence of these markers, showing that cell death is in fact being triggered in these cell populations.",
                     "Arrows": [
                         {
@@ -66,13 +66,13 @@
                         }
                     ],
                     "Overlays": [],
-                    "Group": "Apoptosis 1",
+                    "Group": "Apoptosis",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 13.635214093508926,
+                    "Zoom": 7.610676019199998,
                     "Pan": [
-                        0.7181791702258341,
-                        0.4613792787611259
+                        0.7105703545592459,
+                        0.47054512576814556
                     ]
                 },
                 {
@@ -80,32 +80,32 @@
                     "Description": "Conversely, in hypoxic regions, we notice a distinct lack of expression of these apoptotic markers. Signals that would normally drive cells into planned cell death pathways are absent, and cells evade this important set of anti-tumorigenic pathways.",
                     "Arrows": [],
                     "Overlays": [],
-                    "Group": "Apoptosis 2",
+                    "Group": "Apoptosis",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 1.6631249999999995,
+                    "Zoom": 2.394899999999999,
                     "Pan": [
-                        0.5343455937158691,
-                        0.3992848863282712
+                        0.49069479132719984,
+                        0.42189546092602764
                     ]
                 },
                 {
-                    "Name": "Cancer Immunity and Progression",
-                    "Description": "Could immune cell activity in tumor cells be important for triggering apoptotic pathways? To answer this question, we analyzed a variety of immune cell markers for CD4+ (T Helper) and CD8+ (T Killer) T cells as well as CD20+ B cells. These immune cells work in concert to lead to the killing of virus infected cells, and recent research shows that some T cells are capable of anti-tumor responses as well. As suggested by the previous biomarker analyses, while normoxic tumor regions often feature immune cell entry...",
+                    "Name": "Cancer immunity and progression",
+                    "Description": "Could immune cell activity in tumor cells be important for triggering apoptotic pathways? To answer this question, we analyzed a variety of immune cell markers for CD4+ (T Helper) and CD8+ (T Killer) T cells as well as CD20+ B cells. These immune cells work in concert to lead to the killing of virus-infected cells, and recent research shows that some T cells are capable of anti-tumor responses as well. As suggested by the previous biomarker analyses, while normoxic tumor regions often feature immune cell entry...",
                     "Arrows": [],
                     "Overlays": [],
                     "Group": "Cancer Immunity and Progression",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 8.276774399999997,
+                    "Zoom": 7.777011538983049,
                     "Pan": [
                         0.7446541706669598,
                         0.43732722194778034
                     ]
                 },
                 {
-                    "Name": "Cancer Immunity and Progression",
-                    "Description": "...hypoxic regions are immune cell deserts, offering an explanation for the overall lack of apoptotic activity.",
+                    "Name": "Cancer immunity and progression",
+                    "Description": "...hypoxic regions are immune cell deserts, note the absence of CD45+, CD3+, or CD20+ positive cells in the hypoxic area, offering an explanation for the overall lack of apoptotic activity.",
                     "Arrows": [],
                     "Overlays": [],
                     "Group": "Cancer Immunity and Progression",
@@ -118,8 +118,8 @@
                     ]
                 },
                 {
-                    "Name": "Cancer Associated Fibroblasts and Collagen Deposition",
-                    "Description": "This biomarker panel can also offer insight into the mechanisms that preclude immune cell entry into hypoxic regions. We observe in hypoxic tumor tissue, an increase in expression of collagen, SMA, CIAIP, and vimentin. These markers indicate a process of desmoplasia, which is an increased distribution of extracellular matrix material and is a hallmark of tumor cell aggression. Richness of P-Cadherin expression also suggests the invasion of cancer-associated fibroblasts. The physical constraints imposed by extracellular matrix material offer an intriguing hypothesis into why hypoxic cells are more aggressive. Could desmoplasia lead to a physical hardening of tissues that trap immune cells and block apoptosis? Future imaging with additional biomarkers could directly address this potential mechanism.",
+                    "Name": "Cancer-associated fibroblasts and collagen deposition",
+                    "Description": "This biomarker panel can also offer insight into the mechanisms that preclude immune cell entry into hypoxic regions. We observe in hypoxic tumor tissue, an increase in expression of collagen, SMA, CIAIP, and vimentin. These markers indicate a process of desmoplasia, which is an increased distribution of extracellular matrix material and is a hallmark of tumor cell aggression.\nRichness of P-Cadherin expression also suggests the invasion of cancer-associated fibroblasts. The physical constraints imposed by extracellular matrix material offer an intriguing hypothesis into why hypoxic cells are more aggressive. Could desmoplasia lead to a physical hardening of tissues that traps immune cells and block apoptosis? Future imaging with additional biomarkers could directly address this potential mechanism.",
                     "Arrows": [
                         {
                             "Text": "",
@@ -161,23 +161,58 @@
     "Channels": [
         {
             "Rendered": false,
-            "Name": "Collagen",
-            "Path": "Collagen_0__Collagen"
+            "Name": "PANCK PCK26",
+            "Path": "PANCK-PCK26_8__PANCK-PCK26"
         },
         {
             "Rendered": false,
-            "Name": "VIMENTIN",
-            "Path": "VIMENTIN_13__VIMENTIN"
+            "Name": "PANCK AE1",
+            "Path": "PANCK-AE1_15__PANCK-AE1"
         },
         {
             "Rendered": false,
-            "Name": "HTR2B",
-            "Path": "HTR2B_4__HTR2B"
+            "Name": "GLUT1",
+            "Path": "GLUT1_1__GLUT1"
         },
         {
             "Rendered": false,
-            "Name": "SMA",
-            "Path": "SMA_11__SMA"
+            "Name": "Vimentin",
+            "Path": "Vimentin_13__Vimentin"
+        },
+        {
+            "Rendered": false,
+            "Name": "NaKATPase",
+            "Path": "NaKATPase_6__NaKATPase"
+        },
+        {
+            "Rendered": false,
+            "Name": "DAPI",
+            "Path": "DAPI_29__DAPI"
+        },
+        {
+            "Rendered": false,
+            "Name": "BAK",
+            "Path": "BAK_16__BAK"
+        },
+        {
+            "Rendered": false,
+            "Name": "CASPASE9",
+            "Path": "CASPASE9_21__CASPASE9"
+        },
+        {
+            "Rendered": false,
+            "Name": "BAX",
+            "Path": "BAX_17__BAX"
+        },
+        {
+            "Rendered": false,
+            "Name": "BCL",
+            "Path": "BCL_19__BCL"
+        },
+        {
+            "Rendered": false,
+            "Name": "BCL2",
+            "Path": "BCL2_20__BCL2"
         },
         {
             "Rendered": false,
@@ -186,8 +221,63 @@
         },
         {
             "Rendered": false,
-            "Name": "PCAD",
-            "Path": "PCAD_7__PCAD"
+            "Name": "X1AP",
+            "Path": "X1AP_14__X1AP"
+        },
+        {
+            "Rendered": false,
+            "Name": "SMAC",
+            "Path": "SMAC_12__SMAC"
+        },
+        {
+            "Rendered": false,
+            "Name": "NaKATPase",
+            "Path": "NaKATPase_6__NaKATPase"
+        },
+        {
+            "Rendered": false,
+            "Name": "GLUT1",
+            "Path": "GLUT1_1__GLUT1"
+        },
+        {
+            "Rendered": false,
+            "Name": "BCAT",
+            "Path": "BCAT_18__BCAT"
+        },
+        {
+            "Rendered": false,
+            "Name": "HTR2B",
+            "Path": "HTR2B-0_4__HTR2B"
+        },
+        {
+            "Rendered": false,
+            "Name": "LDHA",
+            "Path": "LDHA_5__LDHA"
+        },
+        {
+            "Rendered": false,
+            "Name": "SMA",
+            "Path": "SMA_11__SMA"
+        },
+        {
+            "Rendered": false,
+            "Name": "PANCK PCK26",
+            "Path": "PANCK-PCK26_8__PANCK-PCK26"
+        },
+        {
+            "Rendered": false,
+            "Name": "NaKATPase",
+            "Path": "NaKATPase_6__NaKATPase"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD31",
+            "Path": "CD31_26__CD31"
+        },
+        {
+            "Rendered": false,
+            "Name": "PANCK AE1",
+            "Path": "PANCK-AE1_15__PANCK-AE1"
         },
         {
             "Rendered": false,
@@ -222,7 +312,7 @@
         {
             "Rendered": false,
             "Name": "PANCK PCK26",
-            "Path": "PANCK-PCK26-0_8__PANCK-PCK26"
+            "Path": "PANCK-PCK26_8__PANCK-PCK26"
         },
         {
             "Rendered": false,
@@ -231,94 +321,129 @@
         },
         {
             "Rendered": false,
-            "Name": "NaKATPase",
-            "Path": "NaKATPase-0_6__NaKATPase"
+            "Name": "Collagen",
+            "Path": "Collagen_0__Collagen"
         },
         {
             "Rendered": false,
-            "Name": "CD31",
-            "Path": "CD31_26__CD31"
+            "Name": "HTR2B",
+            "Path": "HTR2B-0_4__HTR2B"
         },
         {
             "Rendered": false,
-            "Name": "BCAT",
-            "Path": "BCAT_18__BCAT"
-        },
-        {
-            "Rendered": false,
-            "Name": "LDHA",
-            "Path": "LDHA_5__LDHA"
-        },
-        {
-            "Rendered": false,
-            "Name": "BAK",
-            "Path": "BAK_16__BAK"
-        },
-        {
-            "Rendered": false,
-            "Name": "CASPASE9",
-            "Path": "CASPASE9_21__CASPASE9"
-        },
-        {
-            "Rendered": false,
-            "Name": "BAX",
-            "Path": "BAX_17__BAX"
-        },
-        {
-            "Rendered": false,
-            "Name": "BCL",
-            "Path": "BCL_19__BCL"
-        },
-        {
-            "Rendered": false,
-            "Name": "BCL2",
-            "Path": "BCL2_20__BCL2"
-        },
-        {
-            "Rendered": false,
-            "Name": "X1AP",
-            "Path": "X1AP_14__X1AP"
-        },
-        {
-            "Rendered": false,
-            "Name": "SMAC",
-            "Path": "SMAC_12__SMAC"
-        },
-        {
-            "Rendered": false,
-            "Name": "PANCK PCK26",
-            "Path": "PANCK-PCK26-0_8__PANCK-PCK26"
-        },
-        {
-            "Rendered": false,
-            "Name": "NaKATPase",
-            "Path": "NaKATPase-0_6__NaKATPase"
-        },
-        {
-            "Rendered": false,
-            "Name": "DAPI",
-            "Path": "DAPI_29__DAPI"
+            "Name": "PCAD",
+            "Path": "PCAD_7__PCAD"
         }
     ],
     "Masks": [],
     "Groups": [
         {
-            "Name": "Cancer Associated Fibroblasts and Collagen Deposition",
+            "Name": "Overview",
             "Colors": [
-                "f80505",
+                "ee82ee",
+                "00ffff",
+                "ffff84",
                 "c84600",
-                "ff00ff",
-                "0000ff",
-                "00ff00",
-                "0096a0"
+                "fcba03",
+                "ffffff"
             ],
             "Channels": [
-                "Collagen",
-                "VIMENTIN",
-                "HTR2B",
-                "SMA",
+                "PANCK PCK26",
+                "PANCK AE1",
+                "GLUT1",
+                "Vimentin",
+                "NaKATPase",
+                "DAPI"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "Name": "Apoptosis",
+            "Colors": [
+                "ee82ee",
+                "00ffff",
+                "ffff84",
+                "c84600",
+                "ffffff",
+                "00ff00",
+                "ff00ff",
+                "0096a0",
+                "0000ff"
+            ],
+            "Channels": [
+                "BAK",
+                "CASPASE9",
+                "BAX",
+                "BCL",
+                "BCL2",
                 "CIAP1",
-                "PCAD"
+                "X1AP",
+                "SMAC",
+                "NaKATPase"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "Name": "Aerobic Glycolysis Warburg Effect - EMT",
+            "Colors": [
+                "ffff84",
+                "ee82ee",
+                "ff00ff",
+                "00ff00",
+                "c84600",
+                "0000ff"
+            ],
+            "Channels": [
+                "GLUT1",
+                "BCAT",
+                "HTR2B",
+                "LDHA",
+                "Vimentin",
+                "SMA"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "Name": "Architecture",
+            "Colors": [
+                "0000ff",
+                "c84600",
+                "ee82ee",
+                "fcba03",
+                "ffffff",
+                "00ffff"
+            ],
+            "Channels": [
+                "SMA",
+                "Vimentin",
+                "PANCK PCK26",
+                "NaKATPase",
+                "CD31",
+                "PANCK AE1"
             ],
             "Descriptions": [
                 "",
@@ -363,148 +488,22 @@
             ]
         },
         {
-            "Name": "Architecture",
+            "Name": "Cancer Associated Fibroblasts and Collagen Deposition",
             "Colors": [
-                "0000ff",
+                "f80505",
                 "c84600",
-                "ee82ee",
-                "0000ff",
-                "ffffff",
-                "00ffff"
-            ],
-            "Channels": [
-                "SMA",
-                "VIMENTIN",
-                "PANCK PCK26",
-                "NaKATPase",
-                "CD31",
-                "PANCK AE1"
-            ],
-            "Descriptions": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        },
-        {
-            "Name": "Aerobic Glycolysis Warburg Effect - EMT",
-            "Colors": [
-                "ffff84",
-                "ee82ee",
                 "ff00ff",
+                "0000ff",
                 "00ff00",
-                "c84600",
-                "0000ff"
+                "0096a0"
             ],
             "Channels": [
-                "GLUT1",
-                "BCAT",
+                "Collagen",
+                "Vimentin",
                 "HTR2B",
-                "LDHA",
-                "VIMENTIN",
-                "SMA"
-            ],
-            "Descriptions": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        },
-        {
-            "Name": "Apoptosis 2",
-            "Colors": [
-                "ee82ee",
-                "00ffff",
-                "ffff84",
-                "c84600",
-                "ffffff",
-                "00ff00",
-                "ff00ff",
-                "0096a0",
-                "0000ff"
-            ],
-            "Channels": [
-                "BAK",
-                "CASPASE9",
-                "BAX",
-                "BCL",
-                "BCL2",
+                "SMA",
                 "CIAP1",
-                "X1AP",
-                "SMAC",
-                "NaKATPase"
-            ],
-            "Descriptions": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        },
-        {
-            "Name": "Apoptosis 1",
-            "Colors": [
-                "ee82ee",
-                "00ffff",
-                "ffff84",
-                "c84600",
-                "ffffff",
-                "00ff00",
-                "ff00ff",
-                "0096a0",
-                "0000ff"
-            ],
-            "Channels": [
-                "BAK",
-                "CASPASE9",
-                "BAX",
-                "BCL",
-                "BCL2",
-                "CIAP1",
-                "X1AP",
-                "SMAC",
-                "NaKATPase"
-            ],
-            "Descriptions": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        },
-        {
-            "Name": "Overview",
-            "Colors": [
-                "ee82ee",
-                "00ffff",
-                "ffff84",
-                "c84600",
-                "0000ff",
-                "ffffff"
-            ],
-            "Channels": [
-                "PANCK PCK26",
-                "PANCK AE1",
-                "GLUT1",
-                "VIMENTIN",
-                "NaKATPase",
-                "DAPI"
+                "PCAD"
             ],
             "Descriptions": [
                 "",
